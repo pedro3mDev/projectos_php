@@ -1,0 +1,106 @@
+body {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			background: linear-gradient(135deg, #111 40%, #f1c40f);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Segoe UI', sans-serif;
+			color: #fff;
+		}
+
+		.box {
+			background: #1c1c1c;
+			padding: 40px 35px;
+			border-radius: 12px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.4);
+			width: 350px;
+			text-align: center;
+		}
+
+		.box h2 {
+			margin-bottom: 30px;
+			color: #f1c40f;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		.inputBox {
+			position: relative;
+			margin-bottom: 25px;
+		}
+
+		.inputBox input {
+			width: 100%;
+			padding: 10px 10px;
+			font-size: 16px;
+			color: #fff;
+			border: none;
+			border-bottom: 2px solid #555;
+			outline: none;
+			background: transparent;
+			transition: 0.3s;
+		}
+
+		.inputBox label {
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 10px 0;
+			font-size: 16px;
+			color: #aaa;
+			pointer-events: none;
+			transition: 0.3s;
+		}
+
+		.inputBox input:focus ~ label,
+		.inputBox input:valid ~ label {
+			top: -20px;
+			left: 0;
+			color: #f1c40f;
+			font-size: 14px;
+		}
+
+		input[type="submit"] {
+			background: #f1c40f;
+			border: none;
+			color: #111;
+			padding: 12px 20px;
+			cursor: pointer;
+			width: 100%;
+			border-radius: 6px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+
+		input[type="submit"]:hover {
+			background: #d4ac0d;
+		}
+
+		.error {
+			background: rgba(255, 0, 0, 0.1);
+			color: #ff6b6b;
+			border: 1px solid #ff6b6b;
+			padding: 8px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			font-size: 0.9rem;
+		}
+
+		.footer-text {
+			margin-top: 15px;
+			font-size: 0.85rem;
+			color: #aaa;
+		}
+
+		.footer-text i {
+			color: #f1c40f;
+		}
+
+		@media (max-width: 480px) {
+			.box {
+				width: 90%;
+				padding: 30px 20px;
+			}
+		}

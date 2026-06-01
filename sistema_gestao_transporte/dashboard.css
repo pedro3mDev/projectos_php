@@ -1,0 +1,132 @@
+body {
+            background: #f4f6f8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 230px;
+            height: 100vh;
+            background: #0d1b2a;
+            color: #fff;
+            position: fixed;
+            padding-top: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 12px 20px;
+            transition: 0.3s;
+        }
+
+        .sidebar ul li.active, .sidebar ul li:hover {
+            background: #1b263b;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar ul li a i {
+            font-size: 1.1rem;
+        }
+
+        .sidebar ul li.active a, .sidebar ul li:hover a {
+            color: #fca311;
+            font-weight: 600;
+        }
+
+        /* Main Content */
+        .main--content {
+            margin-left: 250px;
+            padding: 30px;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            font-size: 14px;
+            color: #000;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .breadcrumb .separator {
+            margin: 0 8px;
+            color: #000;
+        }
+
+        .breadcrumb .current {
+            font-weight: 600;
+        }
+
+        /* Cards */
+        .payment--card {
+            background: #1b263b;
+            border-radius: 14px;
+            padding: 25px;
+            color: #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .payment--card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+        }
+
+        .payment--card .card--header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .payment--card .titlle {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fca311;
+        }
+
+        .payment--card .icon {
+            font-size: 2rem;
+            color: #fca311;
+        }
+
+        .card-detail {
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        .main--title {
+            font-weight: 700;
+            color: #1b263b;
+            margin-bottom: 20px;
+        }
+
+        .row.flex-nowrap {
+            flex-wrap: nowrap;
+        }
+
+        /* Scrollbar horizontal */
+        .overflow-auto::-webkit-scrollbar {
+            height: 8px;
+        }
+        .overflow-auto::-webkit-scrollbar-thumb {
+            background: #aaa;
+            border-radius: 10px;
+        }
