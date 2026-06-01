@@ -1,0 +1,30 @@
+
+.nav-tabs {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-tabs li {
+    margin-right: 10px;
+}
+.nav-tabs li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+.nav-tabs li a:hover {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #336;
+    color: #fff;
+}
+.nav-tabs li.active a {
+    color: #fff;
+    background-color: #8B0000;
+    border-radius: 4px;
+}
+

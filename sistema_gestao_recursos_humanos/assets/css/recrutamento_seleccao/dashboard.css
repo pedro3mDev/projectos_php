@@ -1,0 +1,27 @@
+/**
+Cards
+*/
+.card{
+    border-bottom: 1px solid #336; border-left: 4px solid #8B0000; 
+}
+.paragrafo{
+    font-size: 14px; font-weight: bold; color:#DAA520;
+}
+.paragrafo2{
+    font-size:16px; color:#DAA520;
+}
+.chart-container {
+    height: 400px;
+    /* Ajuste para a altura desejada */
+}
+
+
+
+
+/**
+Barra de Rolagem
+*/
+.scrollable {
+    overflow-y: auto;
+    max-height: 110px; 
+}

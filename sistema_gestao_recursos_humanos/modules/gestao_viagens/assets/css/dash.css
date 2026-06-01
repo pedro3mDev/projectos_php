@@ -1,0 +1,102 @@
+/*Scroll*/
+.scrollable {
+    overflow-y: auto;
+    max-height: 110px; 
+}
+
+.thead-custom {
+    background-color: #f4f4f4;
+    color: rgba(51, 51, 51, 0.8);
+    font-weight: bold; 
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.card{
+    border-bottom: 1px solid #336; border-left: 4px solid #8B0000; 
+}
+.paragrafo{
+    font-size: 14px; font-weight: bold; color:#DAA520;
+}
+.paragrafo2{
+    font-size:16px; color:#DAA520;
+}
+.chart-container {
+    height: 400px;
+    /* Ajuste para a altura desejada */
+}
+
+/**
+Tabelas
+*/
+#titulo1 {
+    background-color: #336;
+    color: #fff;
+    text-align: center;
+}
+.titulo2 {
+    background-color: #800000;
+    color: #fff;
+    text-align: center;
+}
+
+
+/***********************************/
+.dashboard-link {
+    color: #333;
+    font-size: 16px;
+}
+
+.chart-container {
+    width: 100%;
+    margin: auto;
+}
+
+.table-container {
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px dashed #ccc;
+}
+
+.table-rank {
+    font-size: 18px;
+    width: 30%;
+}
+
+.destination-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #336;
+}
+
+.destination-reservations {
+    font-size: 14px;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top_stats_wrapper {
+    background-color: while;
+    /* Cor de fundo dos cards */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}

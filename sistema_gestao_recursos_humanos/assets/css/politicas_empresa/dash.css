@@ -1,0 +1,13 @@
+#titulo{
+    font-size:16px; 
+    color: #333;
+}
+.paragrafo_card{
+    font-size:16px; 
+    color:#DAA520;
+}
+.paragrafo_card_titulo{
+    font-size: 14px; 
+    font-weight: bold; 
+    color:#DAA520;
+}
